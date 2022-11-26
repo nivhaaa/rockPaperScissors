@@ -140,7 +140,7 @@ const createPickElement = (option) => {
     imageContainerElement.classList.add("button__image-container")
 
     const imgElement = document.createElement("img");
-    imgElement.src = `/rock-paper-scissors-master/images/icon-${option}.svg`;
+    imgElement.src = `./images/icon-${option}.svg`;
     imgElement.alt = option;
 
     imageContainerElement.appendChild(imgElement);
